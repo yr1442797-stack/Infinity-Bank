@@ -1,0 +1,1802 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Infinity Bank </title>
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link
+href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+rel="stylesheet">
+
+<!-- Font Awesome -->
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+>
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     NAVBAR
+===================================================== -->
+<div class="line">
+   <h4> <p>It is open for all time :)</p></h4>
+</div>
+<header class="navbar">
+
+<div class="nav-container">
+
+<a href="#" class="logo">
+
+<span class="logo-icon">
+
+<i class="fa-solid fa-building-columns"></i>
+
+</span>
+
+Infinity Bank
+
+</a>
+
+
+<ul class="nav-links">
+
+<li>
+<a href="#home">Home</a>
+</li>
+
+<li>
+<a href="#dashboard">Banking</a>
+</li>
+
+<li>
+<a href="#services">Services</a>
+</li>
+
+<li>
+<a href="#loans">Loans</a>
+</li>
+
+<li>
+<a href="#security">Security</a>
+</li>
+
+<li>
+<a href="#contact">Contact</a>
+</li>
+
+<li>
+<a href="index1.html">Scaner</a>
+</li>
+
+</ul>
+
+
+<div class="nav-actions">
+
+<button
+class="btn btn-outline"
+onclick="openLogin()">
+
+Login
+
+</button>
+
+<button
+class="btn btn-primary"
+onclick="openLogin()">
+
+Open Account
+
+</button>
+
+</div>
+
+
+<div class="mobile-menu">
+
+<i class="fa-solid fa-bars"></i>
+
+</div>
+
+</div>
+
+</header>
+
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<section class="hero" id="home">
+
+<div class="hero-container">
+
+
+<div>
+
+<p style="color:#91adff;font-weight:700;">
+
+SMARTER BANKING • BETTER FUTURE
+
+</p>
+
+
+<h1>
+
+Banking made
+
+<span>simple.</span>
+
+</h1>
+
+
+<p>
+
+Manage your money, transfer funds,
+track expenses, apply for loans and
+control your financial future —
+all from one powerful banking platform.
+
+</p>
+
+
+<div class="hero-buttons">
+
+<button
+class="btn btn-primary"
+onclick="showMessage('Welcome to Infinity Bank!')">
+
+Get Started
+<i class="fa-solid fa-arrow-right"></i>
+
+</button>
+
+
+<button
+class="btn btn-outline"
+onclick="document.getElementById('dashboard').scrollIntoView()">
+
+Explore Banking
+
+</button>
+
+</div>
+
+</div>
+
+
+<div>
+
+<div class="bank-card">
+
+<div class="card-top">
+
+<div class="card-brand">
+INFINITY BANK
+</div>
+
+<div class="contactless">
+
+<i class="fa-solid fa-wifi"></i>
+
+</div>
+
+</div>
+
+
+<div class="chip"></div>
+
+
+<div class="card-number">
+
+5412 7512 3412 8890
+
+</div>
+
+
+<div class="card-bottom">
+
+<div>
+
+<small>Card Holder</small>
+
+<br>
+
+HIMANSHU YADAV
+
+</div>
+
+
+<div>
+
+<small>Expires</small>
+
+<br>
+
+08/29
+
+</div>
+
+
+<div>
+
+<small>Type</small>
+
+<br>
+
+VISA
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =====================================================
+     TRUST
+===================================================== -->
+
+<section class="trust">
+
+<div class="trust-container">
+
+<div class="trust-item">
+
+<i class="fa-solid fa-shield-halved"></i>
+<a href="#">
+Secure Banking
+</a>
+</div>
+
+
+<div class="trust-item">
+
+<i class="fa-solid fa-lock"></i>
+<a href="#">
+256-bit Encryption
+</a>
+</div>
+
+
+<div class="trust-item">
+
+<i class="fa-solid fa-headset"></i>
+<a href="#">
+24/7 Support
+</a>
+</div>
+
+
+<div class="trust-item">
+
+<i class="fa-solid fa-bolt"></i>
+<a href="#">
+Instant Transfers
+</a>
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =====================================================
+     DASHBOARD
+===================================================== -->
+
+<section class="section" id="dashboard">
+
+<div class="container">
+
+<div class="section-heading">
+
+<span class="tag">
+
+YOUR MONEY
+
+</span>
+
+
+<h2>
+
+Everything in one dashboard
+
+</h2>
+
+
+<p>
+
+Keep track of your balance,
+transactions and spending.
+
+</p>
+
+</div>
+
+
+<div class="dashboard">
+
+
+<div class="dashboard-card">
+
+<div class="dashboard-header">
+
+<h3>
+
+My Account
+
+</h3>
+
+<span style="color:#16a673;">
+
+<i class="fa-solid fa-circle-check"></i>
+
+Active
+
+</span>
+
+</div>
+
+
+<span class="balance-label">
+
+Available Balance
+
+</span>
+
+
+<div class="account-balance">
+
+₹1,84,650.75
+
+</div>
+
+
+<span class="balance-label">
+
+Account **** 4582
+
+</span>
+
+
+<div class="balance-actions">
+
+
+<button
+class="quick-action"
+onclick="showMessage('Send Money selected')">
+
+<i class="fa-solid fa-paper-plane"></i>
+
+Send
+
+</button>
+
+
+<button
+class="quick-action"
+onclick="showMessage('Add Money selected')">
+
+<i class="fa-solid fa-plus"></i>
+
+Add Money
+
+</button>
+
+
+<button
+class="quick-action"
+onclick="showMessage('Pay Bills selected')">
+
+<i class="fa-solid fa-receipt"></i>
+
+Bills
+
+</button>
+
+
+<button
+class="quick-action"
+onclick="showMessage('Card controls opened')">
+
+<i class="fa-solid fa-credit-card"></i>
+
+Cards
+
+</button>
+
+
+</div>
+
+</div>
+
+
+<div class="dashboard-card">
+
+<div class="dashboard-header">
+
+<h3>
+
+Monthly Spending
+
+</h3>
+
+<span style="color:#718096;">
+
+August 2026
+
+</span>
+
+</div>
+
+
+<div
+style="
+display:flex;
+align-items:end;
+gap:10px;
+height:160px;
+">
+
+<div style="
+flex:1;
+height:55%;
+background:#dce5ff;
+border-radius:8px 8px 0 0;
+"></div>
+
+
+<div style="
+flex:1;
+height:70%;
+background:#c7d5ff;
+border-radius:8px 8px 0 0;
+"></div>
+
+
+<div style="
+flex:1;
+height:45%;
+background:#dce5ff;
+border-radius:8px 8px 0 0;
+"></div>
+
+
+<div style="
+flex:1;
+height:85%;
+background:#1746d1;
+border-radius:8px 8px 0 0;
+"></div>
+
+
+<div style="
+flex:1;
+height:60%;
+background:#c7d5ff;
+border-radius:8px 8px 0 0;
+"></div>
+
+
+<div style="
+flex:1;
+height:75%;
+background:#6b5cf5;
+border-radius:8px 8px 0 0;
+"></div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =====================================================
+     TRANSACTIONS
+===================================================== -->
+
+<section class="section" style="padding-top:0;">
+
+<div class="container">
+
+<div class="dashboard">
+
+
+<div class="dashboard-card">
+
+<div class="dashboard-header">
+
+<h3>
+
+Recent Transactions
+
+</h3>
+
+<a
+href="#"
+style="color:#1746d1;font-weight:700;">
+
+View All
+
+</a>
+
+</div>
+
+
+<div class="transaction">
+
+<div class="transaction-left">
+
+<div class="transaction-icon">
+
+<i class="fa-solid fa-cart-shopping"></i>
+
+</div>
+
+
+<div>
+
+<h4>
+
+Amazon Shopping
+
+</h4>
+
+<small>
+
+Today • 12:45 PM
+
+</small>
+
+</div>
+
+</div>
+
+
+<span class="amount debit">
+
+-₹2,499
+
+</span>
+
+</div>
+
+
+<div class="transaction">
+
+<div class="transaction-left">
+
+<div class="transaction-icon">
+
+<i class="fa-solid fa-money-bill-transfer"></i>
+
+</div>
+
+
+<div>
+
+<h4>
+
+Salary Credit
+
+</h4>
+
+<small>
+
+Yesterday • 09:30 AM
+
+</small>
+
+</div>
+
+</div>
+
+
+<span class="amount credit">
+
++₹45,000
+
+</span>
+
+</div>
+
+
+<div class="transaction">
+
+<div class="transaction-left">
+
+<div class="transaction-icon">
+
+<i class="fa-solid fa-utensils"></i>
+
+</div>
+
+
+<div>
+
+<h4>
+
+Restaurant Payment
+
+</h4>
+
+<small>
+
+Aug 22 • 08:10 PM
+
+</small>
+
+</div>
+
+</div>
+
+
+<span class="amount debit">
+
+-₹850
+
+</span>
+
+</div>
+
+
+<div class="transaction">
+
+<div class="transaction-left">
+
+<div class="transaction-icon">
+
+<i class="fa-solid fa-arrow-down"></i>
+
+</div>
+
+
+<div>
+
+<h4>
+
+Money Received
+
+</h4>
+
+<small>
+
+Aug 21 • 02:20 PM
+
+</small>
+
+</div>
+
+</div>
+
+
+<span class="amount credit">
+
++₹5,000
+
+</span>
+
+</div>
+
+</div>
+
+
+<div class="dashboard-card">
+
+<div class="dashboard-header">
+
+<h3>
+
+Financial Goals
+
+</h3>
+
+</div>
+
+
+<div style="margin-bottom:25px;">
+
+<div style="
+display:flex;
+justify-content:space-between;
+">
+
+<strong>
+
+New Laptop
+
+</strong>
+
+<span>
+
+₹62,000 / ₹90,000
+
+</span>
+
+</div>
+
+
+<div style="
+height:9px;
+background:#edf0f6;
+border-radius:10px;
+margin-top:10px;
+">
+
+<div style="
+width:69%;
+height:100%;
+background:#1746d1;
+border-radius:10px;
+"></div>
+
+</div>
+
+</div>
+
+
+<div style="margin-bottom:25px;">
+
+<div style="
+display:flex;
+justify-content:space-between;
+">
+
+<strong>
+
+Vacation
+
+</strong>
+
+<span>
+
+₹35,000 / ₹50,000
+
+</span>
+
+</div>
+
+
+<div style="
+height:9px;
+background:#edf0f6;
+border-radius:10px;
+margin-top:10px;
+">
+
+<div style="
+width:70%;
+height:100%;
+background:#6b5cf5;
+border-radius:10px;
+"></div>
+
+</div>
+
+</div>
+
+
+<div>
+
+<div style="
+display:flex;
+justify-content:space-between;
+">
+
+<strong>
+
+Emergency Fund
+
+</strong>
+
+<span>
+
+₹80,000 / ₹1,00,000
+
+</span>
+
+</div>
+
+
+<div style="
+height:9px;
+background:#edf0f6;
+border-radius:10px;
+margin-top:10px;
+">
+
+<div style="
+width:80%;
+height:100%;
+background:#16a673;
+border-radius:10px;
+"></div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =====================================================
+     SERVICES
+===================================================== -->
+
+<section class="section" id="services">
+
+<div class="container">
+
+<div class="section-heading">
+
+<span class="tag">
+
+OUR SERVICES
+
+</span>
+
+<h2>
+
+Banking built around you
+
+</h2>
+
+<p>
+
+Everything you need to manage your financial life.
+
+</p>
+
+</div>
+
+
+<div class="features-grid">
+
+
+<div class="feature-card">
+
+<div class="feature-icon">
+
+<i class="fa-solid fa-wallet"></i>
+
+</div>
+
+<h3>
+
+Digital Account
+
+</h3>
+
+<p>
+
+Open and manage your account completely online.
+
+</p>
+
+</div>
+
+
+<div class="feature-card">
+
+<div class="feature-icon">
+
+<i class="fa-solid fa-money-bill-transfer"></i>
+
+</div>
+
+<h3>
+
+Instant Transfers
+
+</h3>
+
+<p>
+
+Send money quickly and securely.
+
+</p>
+
+</div>
+
+
+<div class="feature-card">
+
+<div class="feature-icon">
+
+<i class="fa-solid fa-credit-card"></i>
+
+</div>
+
+<h3>
+
+Smart Cards
+
+</h3>
+
+<p>
+
+Control your debit and credit cards.
+
+</p>
+
+</div>
+
+
+<div class="feature-card">
+
+<div class="feature-icon">
+
+<i class="fa-solid fa-chart-line"></i>
+
+</div>
+
+<h3>
+
+Expense Tracking
+
+</h3>
+
+<p>
+
+Understand where your money goes.
+
+</p>
+
+</div>
+
+
+<div class="feature-card">
+
+<div class="feature-icon">
+
+<i class="fa-solid fa-piggy-bank"></i>
+
+</div>
+
+<h3>
+
+Smart Savings
+
+</h3>
+
+<p>
+
+Create saving goals and build better habits.
+
+</p>
+
+</div>
+
+
+<div class="feature-card">
+
+<div class="feature-icon">
+
+<i class="fa-solid fa-mobile-screen-button"></i>
+
+</div>
+
+<h3>
+
+Mobile Banking
+
+</h3>
+
+<p>
+
+Access your bank anywhere, anytime.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =====================================================
+     TRANSFER
+===================================================== -->
+
+<section class="section">
+
+<div class="container">
+
+<div class="transfer-area">
+
+
+<div>
+
+<span class="tag">
+
+FAST & EASY
+
+</span>
+
+
+<h2 style="font-size:42px;margin-top:15px;">
+
+Send money in seconds.
+
+</h2>
+
+
+<p>
+
+Transfer money securely without unnecessary paperwork.
+
+</p>
+
+</div>
+
+
+<div class="transfer-form">
+
+<h3 style="margin-bottom:20px;">
+
+Send Money
+
+</h3>
+
+
+<div class="form-group">
+
+<label>
+
+Recipient Name
+
+</label>
+
+<input
+type="text"
+id="recipient"
+placeholder="Enter recipient name">
+
+</div>
+
+
+<div class="form-group">
+
+<label>
+
+Account Number
+
+</label>
+
+<input
+type="text"
+placeholder="Enter account number">
+
+</div>
+
+
+<div class="form-group">
+
+<label>
+
+Amount
+
+</label>
+
+<input
+type="number"
+id="amount"
+placeholder="₹ Enter amount">
+
+</div>
+
+
+<button
+class="btn btn-primary"
+style="width:100%;"
+onclick="sendMoney()">
+
+<i class="fa-solid fa-paper-plane"></i>
+
+Send Money
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =====================================================
+     LOANS
+===================================================== -->
+
+<section class="section" id="loans">
+
+<div class="container">
+
+<div class="section-heading">
+
+<span class="tag">
+
+FINANCING
+
+</span>
+
+<h2>
+
+Loans designed for your goals
+
+</h2>
+
+<p>
+
+Flexible financing options with simple applications.
+
+</p>
+
+</div>
+
+
+<div class="loan-grid">
+
+
+<div class="loan-card">
+
+<i class="fa-solid fa-house"></i>
+
+<h3>
+
+Home Loan
+
+</h3>
+
+<p>
+
+Make your dream home a reality.
+
+</p>
+
+<button
+class="btn btn-outline"
+onclick="showMessage('Home Loan selected')">
+
+Learn More
+
+</button>
+
+</div>
+
+
+<div class="loan-card">
+
+<i class="fa-solid fa-car"></i>
+
+<h3>
+
+Auto Loan
+
+</h3>
+
+<p>
+
+Get behind the wheel with flexible terms.
+
+</p>
+
+<button
+class="btn btn-outline"
+onclick="showMessage('Auto Loan selected')">
+
+Learn More
+
+</button>
+
+</div>
+
+
+<div class="loan-card">
+
+<i class="fa-solid fa-user"></i>
+
+<h3>
+
+Personal Loan
+
+</h3>
+
+<p>
+
+Cover unexpected expenses or personal goals.
+
+</p>
+
+<button
+class="btn btn-outline"
+onclick="showMessage('Personal Loan selected')">
+
+Learn More
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =====================================================
+     SECURITY
+===================================================== -->
+
+<section class="section" id="security">
+
+<div class="container">
+
+<div class="section-heading">
+
+<span class="tag">
+
+SECURITY
+
+</span>
+
+<h2>
+
+Your security comes first
+
+</h2>
+
+<p>
+
+We use modern technology to help protect your
+financial information.
+
+</p>
+
+</div>
+
+
+<div class="security-grid">
+
+
+<div class="security-card">
+
+<i class="fa-solid fa-shield-halved"></i>
+
+<h3>
+
+Secure Login
+
+</h3>
+
+<p>
+
+Multi-layer authentication.
+
+</p>
+
+</div>
+
+
+<div class="security-card">
+
+<i class="fa-solid fa-fingerprint"></i>
+
+<h3>
+
+Biometrics
+
+</h3>
+
+<p>
+
+Fast fingerprint verification.
+
+</p>
+
+</div>
+
+
+<div class="security-card">
+
+<i class="fa-solid fa-lock"></i>
+
+<h3>
+
+Encryption
+
+</h3>
+
+<p>
+
+Advanced data protection.
+
+</p>
+
+</div>
+
+
+<div class="security-card">
+
+<i class="fa-solid fa-bell"></i>
+
+<h3>
+
+Alerts
+
+</h3>
+
+<p>
+
+Instant transaction notifications.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =====================================================
+     CTA
+===================================================== -->
+
+<section class="cta">
+
+<div class="cta-box">
+
+<h2>
+
+Ready to bank smarter?
+
+</h2>
+
+<p>
+
+Join the next generation of digital banking.
+
+</p>
+
+<button
+class="btn btn-primary"
+onclick="openLogin()">
+
+Open Your Account
+
+<i class="fa-solid fa-arrow-right"></i>
+
+</button>
+
+</div>
+
+</section>
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer id="contact">
+
+<div class="footer-grid">
+
+
+<div class="footer-brand">
+
+<div class="logo" style="color:white;">
+
+<span class="logo-icon">
+
+<i class="fa-solid fa-building-columns"></i>
+
+</span>
+
+Infinity Bank
+
+</div>
+
+
+<p>
+
+A modern digital banking platform designed
+to make managing money simple, secure and smart.
+
+</p>
+
+
+<div class="social">
+
+<a href="#">
+
+<i class="fa-brands fa-facebook-f"></i>
+
+</a>
+
+<a href="#">
+
+<i class="fa-brands fa-instagram"></i>
+
+</a>
+
+<a href="#">
+
+<i class="fa-brands fa-x-twitter"></i>
+
+</a>
+
+<a href="#">
+
+<i class="fa-brands fa-linkedin-in"></i>
+
+</a>
+
+</div>
+
+</div>
+
+
+<div class="footer-column">
+
+<h4>
+
+Banking
+
+</h4>
+
+<a href="#">Accounts</a>
+
+<a href="#">Cards</a>
+
+<a href="#">Transfers</a>
+
+<a href="#">Payments</a>
+
+<a href="#">Savings</a>
+
+</div>
+
+
+<div class="footer-column">
+
+<h4>
+
+Products
+
+</h4>
+
+<a href="#">Home Loans</a>
+
+<a href="#">Auto Loans</a>
+
+<a href="#">Personal Loans</a>
+
+<a href="#">Credit Cards</a>
+
+<a href="#">Investments</a>
+
+</div>
+
+
+<div class="footer-column">
+
+<h4>
+
+Support
+
+</h4>
+
+<a href="#">Help Center</a>
+
+<a href="#">Contact Us</a>
+
+<a href="#">Security</a>
+
+<a href="#">Privacy</a>
+
+<a href="#">Terms</a>
+
+</div>
+
+</div>
+
+</footer>
+
+
+<!-- =====================================================
+     LOGIN MODAL
+===================================================== -->
+
+<div class="modal" id="loginModal">
+
+<div class="modal-box">
+
+<button
+class="close-modal"
+onclick="closeLogin()">
+
+×
+
+</button>
+
+
+<h2>
+
+Welcome Back
+
+</h2>
+
+
+<p style="color:#718096;margin-bottom:25px;">
+
+Login to your Infinity Bank account
+
+</p>
+
+
+<div class="form-group">
+
+<label>
+
+Email Address
+
+</label>
+
+<input
+type="email"
+placeholder="Enter your email">
+
+</div>
+
+
+<div class="form-group">
+
+<label>
+
+Password
+
+</label>
+
+<input
+type="password"
+placeholder="Enter password">
+
+</div>
+
+
+<button
+class="btn btn-primary"
+style="width:100%;"
+onclick="loginUser()">
+
+Login
+
+</button>
+
+</div>
+
+</div>
+
+
+<!-- =====================================================
+     NOTIFICATION
+===================================================== -->
+
+<div
+class="notification"
+id="notification">
+
+Action completed successfully!
+
+</div>
+
+
+<!-- =====================================================
+     🤖 CHATBOT BUTTON
+===================================================== -->
+
+<button
+class="chatbot-button"
+id="chatbotButton"
+onclick="toggleChatbot()"
+aria-label="Open customer support chatbot">
+
+<i class="fa-solid fa-comments"></i>
+
+</button>
+
+
+<!-- =====================================================
+     🤖 CHATBOT
+===================================================== -->
+
+<div
+class="chatbot"
+id="chatbot">
+
+
+<!-- CHAT HEADER -->
+
+<div class="chat-header">
+
+<div class="chat-agent">
+
+<div class="bot-avatar">
+
+<i class="fa-solid fa-robot"></i>
+
+</div>
+
+
+<div>
+
+<div class="agent-name">
+
+Infinity Support
+
+</div>
+
+<div class="agent-status">
+
+● Online • Usually replies instantly
+
+</div>
+
+</div>
+
+</div>
+
+
+<button
+class="chat-close"
+onclick="toggleChatbot()">
+
+<i class="fa-solid fa-xmark"></i>
+
+</button>
+
+</div>
+
+
+<!-- CHAT MESSAGES -->
+
+<div
+class="chat-messages"
+id="chatMessages">
+
+
+<div class="message bot-message">
+
+👋 Hello! Welcome to <strong>Infinity Bank Support</strong>.
+
+<br><br>
+
+I'm your virtual banking assistant.
+
+How can I help you today?
+
+</div>
+
+
+</div>
+
+
+<!-- QUICK QUESTIONS -->
+
+<div class="quick-questions">
+
+<button
+class="quick-question"
+onclick="quickQuestion('My card is not working')">
+
+💳 Card Problem
+
+</button>
+
+
+<button
+class="quick-question"
+onclick="quickQuestion('I cannot login')">
+
+🔐 Login Problem
+
+</button>
+
+
+<button
+class="quick-question"
+onclick="quickQuestion('My money transfer failed')">
+
+💸 Transfer Problem
+
+</button>
+
+
+<button
+class="quick-question"
+onclick="quickQuestion('Tell me about loans')">
+
+🏦 Loans
+
+</button>
+
+</div>
+
+
+<!-- CHAT INPUT -->
+
+<div class="chat-input-area">
+
+<input
+type="text"
+id="chatInput"
+class="chat-input"
+placeholder="Type your problem..."
+autocomplete="off">
+
+<button
+class="chat-send"
+onclick="sendChatMessage()">
+
+<i class="fa-solid fa-paper-plane"></i>
+
+</button>
+
+</div>
+
+</div>
+
+
+<!-- =====================================================
+     JAVASCRIPT
+===================================================== -->
+
+<script src="script.js"></script>
+
+
+
+</body>
+
+</html>
